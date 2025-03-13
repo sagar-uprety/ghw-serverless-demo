@@ -74,7 +74,7 @@ const TodoListMenu: FC<TodoListMenuProps> = (props: TodoListMenuProps): ReactEle
                         iconProps={iconProps}
                         value={newListName}
                         disabled={props.selectedList == null}
-                        placeholder="New List"
+                        placeholder="GHW New List"
                         onChange={onNewListNameChange} />
                 </form>
             </Stack.Item>
