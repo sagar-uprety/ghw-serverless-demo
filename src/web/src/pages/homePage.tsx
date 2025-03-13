@@ -27,7 +27,7 @@ const HomePage = () => {
     // Create default list of does not exist
     useEffect(() => {
         if (appContext.state.lists?.length === 0) {
-            actions.lists.save({ name: 'My List' });
+            actions.lists.save({ name: 'GHW Default Tasks' });
         }
     }, [actions.lists, appContext.state.lists?.length])
 
